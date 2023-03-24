@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-@n9a%o6am$1+$yx&a-k003ya6(i#v^$=s!w*)an)r+#1-n2rq^'
+SECRET_KEY = 'django-insecure-)&*b936(tu2sp^^ubbdc&^a9m0rwax^_we^_wmf97cb#p49vdg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -70,7 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'ChatApp.wsgi.application'
-ASGI_APPLICATION = 'ChatApp.asgi.application'
+ASGI_APPLICATION = "config.asgi.application"
 
 
 # Database
@@ -124,3 +124,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
